@@ -1,0 +1,27 @@
+
+// partials
+@import 'footer';
+@import 'media';
+@import 'components';
+
+// color variables
+$color-gold:#bca06d;        // button color on hover
+$color-charcoal:#212529;    // text/background color
+$color-white:#fff;          // text/background color on hover
+$color-gunmetal:#2a3439;    // background color
+$color-black:black;         // icon background
+
+.nav-style,
+.top-nav-wrapper,
+.jumbotron,
+.footer-wrapper,
+.social-media-wrapper {
+    background-color: $color-gunmetal;
+}
+
+.dropdown-menu {
+    background-color: $color-gunmetal;
+    :hover{
+        background-color: $color-gold;
+    }
+}

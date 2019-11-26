@@ -1,0 +1,25 @@
+
+// footer styles
+
+// social media banner
+.social-media-inner {
+    border-bottom: solid 1px $color-gold; 
+    a {
+    background-color: $color-black;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+        &:hover {
+            background-color: $color-gold;
+            text-decoration: none;
+        }
+    }
+    i {
+        color: $color-white;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,36 @@
+
+// component styles
+
+// buttons
+.btn { 
+    background-color: $color-white;
+    color: $color-charcoal;
+    border-color: $color-charcoal;
+    &:hover {
+        background-color: $color-gold;
+        border-color: $color-white;
+    }
+}
+// removes bullets from lists on the page
+ul {
+    list-style: none;
+    padding: 0;
+}
+// makes image grey
+.scott-img {
+    filter: grayscale(100%);
+    max-height: 15rem;
+}
+// settings to keep in proportion
+.img-size {
+    max-height: 39rem;
+}
+
+.card-img {
+    min-height: 19rem;
+}
+
+.slider-wrapper {
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
